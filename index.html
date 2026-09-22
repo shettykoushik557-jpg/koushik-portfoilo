@@ -42,9 +42,9 @@
         </p>
 
         <p>
-            I am currently working on improving my programming skills
-            and learning full stack development. I am also interested
-            in AI and machine learning.
+            I am currently improving my programming skills and learning
+            full stack development. I am also interested in AI and
+            machine learning.
         </p>
 
     </section>
@@ -102,33 +102,28 @@
 
         <div class="projects-container">
 
-            <!-- Projects loaded from MySQL -->
-            {% for project in projects %}
-
+            <!-- AI Road Accident Detection -->
             <div class="project">
 
-                <h3>{{ project.name }}</h3>
+                <h3>AI Road Accident Detection</h3>
 
                 <p>
-                    {{ project.description }}
+                    A project that uses AI and computer vision to detect
+                    possible road accidents from video footage.
                 </p>
 
                 <p>
                     <strong>Technologies:</strong>
-                    {{ project.technologies }}
+                    Python, YOLOv8, OpenCV
                 </p>
 
-                {% if project.github_link %}
-                <a href="{{ project.github_link }}"
+                <a href="https://github.com/shettykoushik557-jpg/AI-Road-Accidents-Detection"
                    target="_blank"
                    class="project-button">
                     View on GitHub
                 </a>
-                {% endif %}
 
             </div>
-
-            {% endfor %}
 
 
             <!-- College Placement Portal -->
@@ -218,7 +213,7 @@
                 Email
             </a>
 
-            <a href="https://www.linkedin.com/in/koushik-shetty-29377631b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            <a href="https://www.linkedin.com/in/koushik-shetty-29377631b"
                target="_blank">
                 LinkedIn
             </a>
